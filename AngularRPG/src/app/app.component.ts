@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularRPG';
+
+  arrayOfThings: string[] = [
+    "Str 1",
+    "Str 2",
+    "Str 3"
+  ]
+
+  onClick(sentence: string){
+    console.log(`You clicked ${sentence}!`)
+  }
 }
